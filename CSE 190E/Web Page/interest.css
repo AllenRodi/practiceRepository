@@ -1,8 +1,98 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
+        background-color: beige;
+        font-family: Helvetica, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+      
 
 }
+
+/* NAV BAR */
+
+#top-nav {
+    background-color: gray;
+}
+
+#top-nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+#top-nav ul li {
+    list-style: none;
+}
+
+#top-nav ul li a {
+    display: block;
+    padding: 1em;
+    color: rgb(250, 231, 215);
+    transition: all 0.5s;
+}
+
+#top-nav ul li a:hover {
+    background: lightgray;
+    color: black;
+}
+
+
+/* main */
 h1 {
     color: blue;
     /* text-align: center; */
+}
+
+oter {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    background-color: gray;
+}
+
+/* footer */
+
+footer nav {
+    padding: 10px 20px;
+    font-size: 15px;
+    
+    
+}
+
+footer nav li {
+    list-style: none;
+
+}
+
+footer a {
+    color: beige;
+}
+
+ footer a:hover {
+    color: white;
+    background: lightgrey;
+}
+
+footer #social {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+footer #social ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer #social ul li {
+    list-style: none;
+    
+}
+
+footer #social ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
 }
